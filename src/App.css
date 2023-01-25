@@ -1,3 +1,8 @@
+
+
+body{
+background: linear-gradient(to right ,aqua ,seagreen);
+}
 .App {
   text-align: center;
 }
@@ -41,13 +46,32 @@
   margin-left: 2rem;
   margin-top: 1rem;
   padding: 1rem;
+ 
   
-  
+}
+.github-profile:hover {
+  background-color: #33d64e;
+  box-shadow: 2px 2px 5px #3323c5;
+  transform: scale(1.05);
+  color: #0000ff;
+  font-size: 2rem;
 }
 
 .form{
-   margin-top: 1rem;
-    margin-left: 2rem;
- padding: 1rem; 
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  background-color: #3d72d3;
+  border: solid 1px #2dd1ae;
+  font-size: 2rem;
+  font-weight: bold;
  
+}
+
+.formbutton{
+  background-color: #00aeff;
+  font-weight: bolder;
+  font-size: large;
+  font-family: cursive;
+  color: rgb(238, 255, 0);
 }
